@@ -2,8 +2,7 @@
 A web app which is used to detect a chronic skin disease of leprosy. We attempt to diagnose leprosy as well as help them to fight the disease.With the help of our Machine Learning model we attempt to diagnose leprosy and make an appointment with the medical professionals.With our chat room we try to provide patinets with free consultation.While our chatbot helps you to get to know more about the disease and solve the stigma about it.We also provide you the donate option which enables you to help the less priveleged.  
 ### LINK
 Website link: https://leprosy.herokuapp.com/ <br>
-Ppt link: https://drive.google.com/file/d/1GPVdbFysLKXv6A6B5PuAEqVVgu5wvQul/view?usp=sharing&authuser=2
-
+Ppt link: https://drive.google.com/file/d/1GPVdbFysLKXv6A6B5PuAEqVVgu5wvQul/view?usp=sharing&authuser=2<br>
 Demo video link - 
 
 ### Technologies Used
@@ -15,7 +14,7 @@ For the backend we used :<br>
 1.Flask<br>
 2.Node.js<br>
 3.DialogFlow<br>
-4.Tensoflow
+4.Tensoflow<br>
 We used Mongo DB as the data base in order to store the required data(Blogs).
 ### Components of the Project
 1.Leprosy detection:With our Ml model and image detection we accurately diagnose whether someone is suffering with leprosy or not (Kindly upload dermatology related relevant images only).The model was created using CNN architecture and deployed on flask(model.h5).<br>
