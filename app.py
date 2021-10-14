@@ -61,7 +61,7 @@ def proc():
 @app.route("/predict", methods=['POST'])
 def predictRoute():
     image = request.json['image']
-    decodeImage(image, filename)
+    decodeImage(image, clApp.filename)
     result = clApp.classifier.prediction_leprosy()
     print(result)
     return jsonify(result)
