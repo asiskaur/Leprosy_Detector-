@@ -21,7 +21,7 @@ We used Mongo DB as the data base in order to store the required data(Blogs).
 2.Dermat:This is the realtime chat application which enables to replicate a support group system.(Dermat)<br>
 3.WEvolve:This is the blogging website which enables user to see the blogs written by proffesionals as well as people.Blog's Front End is developed using React and for Backend we used Node, while Blogs are stored in MongoDB.(WEvolve)(In WEvolve folder the front end react part is in client folder while the backend part is in our WEvolve folder only)<br>
 4.Charlie:The chatbot was developed using Dialogflow.(In Templates/index.html a short snippet code is added in the body tag to integrate the chatbot)<br>
-5.Donate: we also enable you to donate.
+5.Payment Gateway:We also enable you to donte through card as well as through Paytm.For this we used Stripe library.
 ### INSTALLING
 Step 0: ```Git clone this project```<br>
 Step 1: ```cd <local-repository-folder>``` <br>
