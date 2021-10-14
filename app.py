@@ -1,9 +1,8 @@
 from flask import Flask, request, jsonify, render_template
-import os
 from flask_mail import Mail,Message
 import pymongo
 from com_in_ineuron_ai_utils.utils import decodeImage
-from predict import dogcat
+from predict import leprosy
 
 
 
@@ -48,7 +47,7 @@ def predict1():
 class ClientApp:
     def __init__(self):
         self.filename = "inputImage.jpg"
-        self.classifier = dogcat(self.filename)
+        self.classifier = leprosy(self.filename)
 
 
 @app.route("/", methods=['GET'])
@@ -63,7 +62,7 @@ def proc():
 def predictRoute():
     image = request.json['image']
     decodeImage(image, clApp.filename)
-    result = clApp.classifier.predictiondogcat()
+    result = clApp.classifier.prediction_leprosy()
     print(result)
     return jsonify(result)
 
