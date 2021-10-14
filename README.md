@@ -3,8 +3,8 @@ A web app which is used to detect a chronic skin disease of leprosy. We attempt 
 ### LINK
 Website link: https://leprosy.herokuapp.com/ <br>
 Ppt link: https://drive.google.com/file/d/1GPVdbFysLKXv6A6B5PuAEqVVgu5wvQul/view?usp=sharing&authuser=2<br>
-Demo video link - 
-
+Demo video link - https://drive.google.com/file/d/1HT7i8a-SVtWVsrkpNhq5axX5dHDB6BMw/view<br>
+You tube Link of the video explaining the project :https://youtu.be/FBXLglj5cR8 (We added a payment gateway too enabling you to pay through card too)<br>
 ### Technologies Used
 For the front-end we mainly used 
 
