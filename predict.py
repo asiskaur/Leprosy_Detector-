@@ -1,21 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 20 18:45:05 2020
 
-@author: sudhanshukumar
-"""
 
 import numpy as np
 from keras.models import load_model
 from keras.preprocessing import image
 
-class dogcat:
+class leprosy:
     def __init__(self,filename):
         self.filename =filename
 
 
-    def predictiondogcat(self):
+    def prediction_leprosy(self):
         # load model
         model = load_model('model.h5')
 
