@@ -43,10 +43,13 @@ def predict1():
 
 
 
-filename = "inputImage.jpg"
-classifier = leprosy(filename)
 
+class ClientApp:
+    def __init__(self):
+        self.filename = "inputImage.jpg"
+        self.classifier = leprosy(self.filename)
 
+clApp = ClientApp()
 @app.route("/", methods=['GET'])
 def home():
     return render_template('index.html')
@@ -59,10 +62,9 @@ def proc():
 def predictRoute():
     image = request.json['image']
     decodeImage(image, filename)
-    result = classifier.prediction_leprosy()
+    result = clApp.classifier.prediction_leprosy()
     print(result)
     return jsonify(result)
-
 
 if __name__ == "__main__":
     app.run()
