@@ -14,10 +14,11 @@ For the backend we used :<br>
 1.Flask<br>
 2.Node.js<br>
 3.DialogFlow<br>
+4.Tensoflow
 We used Mongo DB as the data base in order to store the required data(Blogs).
 ### Components of the Project
-1.Leprosy detection:With our Ml model and image detection we accurately diagnose whether someone is suffering with leprosy or not .The model was created using MLP and deployed on flask(ModelA.pkl).<br>
-2.Dermat:This is the realtime chat application which enables to replicate a support group system.(Melancholy)<br>
+1.Leprosy detection:With our Ml model and image detection we accurately diagnose whether someone is suffering with leprosy or not (Kindly upload dermatology related relevant images only).The model was created using CNN architecture and deployed on flask(model.h5).<br>
+2.Dermat:This is the realtime chat application which enables to replicate a support group system.(Dermat)<br>
 3.WEvolve:This is the blogging website which enables user to see the blogs written by proffesionals as well as people.Blog's Front End is developed using React and for Backend we used Node, while Blogs are stored in MongoDB.(WEvolve)(In WEvolve folder the front end react part is in client folder while the backend part is in our WEvolve folder only)<br>
 4.Charlie:The chatbot was developed using Dialogflow.(In Templates/index.html a short snippet code is added in the body tag to integrate the chatbot)<br>
 5.Donate: we also enable you to donate.
