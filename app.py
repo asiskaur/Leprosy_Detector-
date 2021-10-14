@@ -49,7 +49,7 @@ class ClientApp:
         self.filename = "inputImage.jpg"
         self.classifier = leprosy(self.filename)
 
-
+clApp = ClientApp()
 @app.route("/", methods=['GET'])
 def home():
     return render_template('index.html')
@@ -66,8 +66,6 @@ def predictRoute():
     print(result)
     return jsonify(result)
 
-
 if __name__ == "__main__":
-    clApp = ClientApp()
     app.run()
-    #app.run(debug=True)
+    #app().run(debug=True)
